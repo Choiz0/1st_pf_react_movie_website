@@ -22,7 +22,7 @@ const MovieCard = ({ item }) => {
   }, []);
 
   const handleClick = () => {
-    navigate(`/moviedetail/${item.id}`);
+    navigate(`/MovieDetail/${item.id}`);
     window.location.reload();
   };
 
